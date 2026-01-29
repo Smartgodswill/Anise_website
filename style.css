@@ -1,73 +1,74 @@
-
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #de24f2; 
-    color: #333333;
-    line-height: 1.6;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* BASE */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #6a1b9a; /* purple text */
+  line-height: 1.6;
+}
+
+/* HEADER */
 header {
-    background-color: #6a1b9a; 
-    color: #ffffff;
-    text-align: center;
-    padding: 2rem 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #6a1b9a;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
+/* MAIN */
 main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
+/* SECTIONS */
 section {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 2px solid #6a1b9a;
+  border-radius: 8px;
 }
 
+/* HEADINGS */
 h2 {
-    color: #6a1b9a; /* Purple */
-    border-bottom: 2px solid #6a1b9a;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #6a1b9a;
 }
 
+/* LIST */
 ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
+  padding-left: 1.5rem;
 }
 
+/* FOOTER */
 footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #6a1b9a;
-    color: #ffffff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  background-color: #6a1b9a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
-
+/* MOBILE */
 @media (max-width: 600px) {
-    header h1 {
-        font-size: 2rem;
-    }
+  header h1 {
+    font-size: 2rem;
+  }
 
-    main {
-        padding: 0 0.5rem;
-    }
-
-    section {
-        padding: 1rem;
-    }
+  section {
+    padding: 1rem;
+  }
 }
